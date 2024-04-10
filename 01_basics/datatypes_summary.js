@@ -35,4 +35,32 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof heros)
+// console.log(typeof heros)
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitve) => copy milta hai, Heap (Non-primitive) => reference i.e. original milta hai
+
+let myYoutubeName = "chai aur code"
+
+let anotherName = myYoutubeName
+anotherName = "tamal"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+
+let userOne ={
+    email: "user@.com",
+    upi: "user89ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "tamal.com"
+console.log(userOne.email);
+console.log(userTwo.email);
