@@ -28,8 +28,19 @@ const newStringOne = "        hitesh       "
 
 const url = "https://tamal.com/tamal200%majumdar"
 
-console.log(url.replace('200%', '_'));
+// console.log(url.replace('200%', '_'));
 
-console.log(url.includes('taml'));
+// console.log(url.includes('taml'));
 
-console.log(gameName.split('-'))
+// console.log(gameName.split('-'))
+
+
+// *********************************Practice the different methods of string*********************************
+
+const myName = "tamal"
+console.log(myName.anchor("wow")) // invalid
+
+// .at
+const sentence = "wow, what a handsome guy you are!"
+
+console.log(`she says me that ${sentence} but she couldn't like this part ${sentence.at(sentence[5])}`)
