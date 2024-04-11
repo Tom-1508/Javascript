@@ -73,27 +73,55 @@ const end = 15
 let newsentence = "You must be the change you wish to see in the world."
 
 let arr = newsentence.split(" ")
-console.log(arr)
-let count = 0
-for (let index = 0; index < arr.length; index++) {
-    count++;
-}
+// console.log(arr)
+// let count = 0
+// for (let index = 0; index < arr.length; index++) {
+//     count++;
+// }
 // console.log(`the no. of words are : ${count}`);
 
 // 5. Create a program that takes a sentence and allows the user to search for a word or phrase and replace it with another word or phrase using the replace() method.
 
 let newSentenceOne = "You must be the change be you wish to see in the be world."
 
-console.log(`the answer is ${newSentenceOne.replace("be", 2+2)}`);
+// console.log(`the answer is ${newSentenceOne.replace("be", 2+2)}`);
 
 // note: The replace() method replaces the "first occurrence" of a specified value with another value.
 
 // 6. Write a program that takes a string and a character as input. Use the indexOf() method to find and display the index of the first occurrence of that character in the string.
 
 let newSentenceTwo = "You must be the change be you wish to see in the be world."
-console.log(`the answer is ${newSentenceTwo.indexOf("be")}`); //The indexOf() method returns the index of the first occurrence of a specified value within the string.
+//console.log(`the answer is ${newSentenceTwo.indexOf("be")}`); //The indexOf() method returns the index of the first occurrence of a specified value within the string.
 
 // 7. Implement a program that reverses a given string using string manipulation methods.
+
+let newStr = "tamal"
+
+let revereseString = newStr.split("").reverse().join("")
+// console.log(revereseString);
+
 // 8. Take a sentence with extra whitespace and use string methods to remove the extra spaces, leaving only single spaces between words.
+
+let newsentenceThree = "                          You must be the change be you wish to see in the be world.                     "
+
+// console.log(newsentenceThree.trim());
+
 // 9. Write a program that checks if a given string is a palindrome (reads the same forwards and backwards) using string methods.
+
+let newStringTwo = "wow"
+let original = newStringTwo
+let reverse = newStringTwo.split("").reverse().join("")
+// console.table([original,reverse])
+// if (original === reverse) {
+//     console.log(`${original} is palindrome`);
+// }
+// else{
+//     console.log(`${original} is not palindrome`);
+// }
+
+
 // 10. Create a program that takes a sentence and converts it to title case (the first letter of each word capitalized) using string methods.
+
+let newsentenceFour = "You must be the change be you wish to see in the be world."
+
+let solution = newsentenceFour.split(" ")
