@@ -28,14 +28,27 @@ const myArr2 = new Array(1,2,3,4)
 //Slice, Splice (Important Difference)
 // Notes: slice => cannot manipulate the original array wherease splice => manipulate the original array
 
-console.log("A ",myArr)
+// console.log("A ",myArr)
 
-const myN1 = myArr.slice(1, 3)
+// const myN1 = myArr.slice(1, 3)
 
-console.log(myN1);
-console.log("B ",myArr)
+// console.log(myN1);
+// console.log("B ",myArr)
 
 
 const myN2 = myArr.splice(1,3)
-console.log("C ",myArr);
-console.log(myN2);
+// console.log("C ",myArr);
+// console.log(myN2);
+
+const myWow = new Array(8)
+console.log(myWow.length)
+console.log(myWow[2])
+console.log(0 in myWow)
+console.log(myWow)
+
+const myNewWow = Array("4")
+console.log(myNewWow.length);
+console.log(myNewWow[0]);
+console.log(myNewWow[1]);
+
+// Constructor : A constructor is a special function that creates and initializes an object instance of a class.
