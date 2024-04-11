@@ -40,15 +40,21 @@ const myN2 = myArr.splice(1,3)
 // console.log("C ",myArr);
 // console.log(myN2);
 
-const myWow = new Array(8)
-console.log(myWow.length)
-console.log(myWow[2])
-console.log(0 in myWow)
-console.log(myWow)
+// const myWow = new Array(8)
+// console.log(myWow.length)
+// console.log(myWow[2])
+// console.log(0 in myWow)
+// console.log(myWow)
 
-const myNewWow = Array("4")
-console.log(myNewWow.length);
-console.log(myNewWow[0]);
-console.log(myNewWow[1]);
+// const myNewWow = Array("4")
+// console.log(myNewWow.length);
+// console.log(myNewWow[0]);
+// console.log(myNewWow[1]);
 
 // Constructor : A constructor is a special function that creates and initializes an object instance of a class.
+
+// .sort, .filter, .find, .copyWithin(), .some(), .reduce() ==> couldn't understand 
+
+const array = [18,65,2,3,0,1]
+console.log(array.sort())
+console.log(array.toSorted())
