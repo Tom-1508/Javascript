@@ -26,6 +26,7 @@ const myArr2 = new Array(1,2,3,4)
 
 
 //Slice, Splice (Important Difference)
+// Notes: slice => cannot manipulate the original array wherease splice => manipulate the original array
 
 console.log("A ",myArr)
 
