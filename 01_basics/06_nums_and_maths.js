@@ -27,8 +27,27 @@ const hundreds = 1000000
 console.log(Math.random()); // generate random value in between 0 to 1
 console.log(Math.floor(Math.random()*10)+1); // generate random value in between 0 to 1
 
+/* Algorithm :
 
+1. we use math.random method to generate a random number in between 0 to 1 , where 0 inclusive but 1 exclusive
+2. then we multiply it with 10 because it will come in between [0 to 10) 
+3. Then we are using math.floor method because we want to take the lower bound , rounded value.
+4. Then adding 1 to avoid 0 as answer 
+
+*/
+
+// General method 
 const min = 10
 const max = 20 
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min );
+/*
+Algorithm:
+1. in more general sense , we do have min and max value and we will need a random number in between them.
+2. so at first we will use math.random method to generate a random number.
+3. Then we will take the difference of max and min because this difference will be in between them.
+4. Then adding 1 to just avoid 0 in result
+5. using math.floor to just taking the lower bound , rounded number
+6. then adding the min , so that the genrated number will be in between max and min.
+
+*/
