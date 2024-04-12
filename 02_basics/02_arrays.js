@@ -37,3 +37,7 @@ const anotherArray = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
 // const Array4 = [1,3,9,19];
 // const concatAll = Array1.concat(Array2, Array3,Array4)
 // console.log(concatAll)
+
+/* 
+The difference between Array.of() and the Array() constructor is in the handling of single arguments: Array.of(7) creates an array with a single element, 7, whereas Array(7) creates an empty array with a length property of 7. (That implies an array of 7 empty slots, not slots with actual undefined values.)
+*/
