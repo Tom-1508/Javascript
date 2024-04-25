@@ -40,6 +40,30 @@ const myFunction = function(){
 
 
 
+/*
+
+There are mainly 2 types of datatypes :
+1. Primitive ( call by value = copy version ):
+- string =>  string 
+- number => number
+- Boolean => boolean
+- null => object
+- undefined => undefined 
+- symbol => symbol
+- Bigint  => Bigint
+
+2. Non-Primitive ( reference type ):
+- Array => object 
+- Object => object
+- Function => Object Function
+
+3. JavaScript is "Dynamically typed language" because all type checks are being performed during Runtime .
+
+
+*/
+
+
+
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // Stack (Primitve) => copy milta hai, Heap (Non-primitive) => reference i.e. original milta hai
